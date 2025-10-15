@@ -2,7 +2,7 @@ class Myip < Formula
   desc "Simple CLI tool to print the current IP address and hostname"
   homepage "https://github.com/Checkm8ra1n/myip"
   url "https://github.com/Checkm8ra1n/myip/archive/refs/tags/v1.0.0.tar.gz"
-  sha256 "bf86d12ac3834c0b4e7f6590e3112768d769007ada338ab96b6190c21fc2137b"
+  sha256 "75ed56d692f716c2397bf1521bb0b6400e6feeb02b39cf6182ac1e0083ee3de4"
   license "MIT"
 
   depends_on "python@3.12"
