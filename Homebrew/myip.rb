@@ -8,7 +8,9 @@ class Myip < Formula
   depends_on "python@3.12"
 
   def install
-    bin.install "myip"
+    # Installa lo script Python puro con il nome corretto
+    bin.install "myip.py" => "myip"
+    # Rende eseguibile
     chmod 0755, bin/"myip"
   end
 
